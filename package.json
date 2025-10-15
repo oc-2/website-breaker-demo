@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@oc-2/website-breaker": "^1.2.4",
+    "@oc-2/website-breaker": "^1.2.8",
     "vue": "^3.5.22"
   },
   "devDependencies": {
