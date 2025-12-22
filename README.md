@@ -2,9 +2,8 @@
 
 [![Depfu](https://badges.depfu.com/badges/baa865a417e940bf20677ccf563da37f/status.svg)](https://depfu.com)
 [![Depfu](https://badges.depfu.com/badges/baa865a417e940bf20677ccf563da37f/overview.svg)](https://depfu.com/github/oc-2/website-breaker-demo?project_id=70082)
+[![CodeSandbox](https://img.shields.io/badge/Check%20it%20out-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/p/github/oc-2/website-breaker-demo/main)
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
 Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-
-[Here](https://codesandbox.io/p/github/oc-2/website-breaker-demo/main) is a codesandbox demo for a more interactive experience.
