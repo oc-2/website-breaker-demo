@@ -1,0 +1,16 @@
+{
+  "name": "website-breaker-demo",
+  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-pull-request-github",
+        "esbenp.prettier-vscode",
+        "vue.volar"
+      ]
+    }
+  },
+  "onCreateCommand": "nvm install && nvm use",
+  "postCreateCommand": "npm install -g yarn@1.22.22",
+  "remoteUser": "codespace"
+}
