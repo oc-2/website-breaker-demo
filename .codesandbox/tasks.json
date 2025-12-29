@@ -12,11 +12,7 @@
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true,
-      "preview": {
-        "port": 5173,
-        "prLink": "devtool"
-      }
+      "runAtStart": true
     },
     "build": {
       "name": "build",
