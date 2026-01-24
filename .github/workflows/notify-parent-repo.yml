@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify-parent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch to parent repo
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: oc-2/2.0-Website-Breaker              # owner/repo of the parent
+          event-type: vue-updated                           # must match parent workflow's repository_dispatch type
+          client-payload: '{"commit":"${{ github.sha }}","ref":"${{ github.ref }}","pusher":"${{ github.actor }}"}'
