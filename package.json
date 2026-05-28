@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@oc-2/website-breaker": "^2.0.3",
-    "vue": "^3.5.28"
+    "vue": "^3.5.35"
   },
   "devDependencies": {
     "@types/node": "^25.3.2",
